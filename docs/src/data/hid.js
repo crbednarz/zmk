@@ -1356,7 +1356,7 @@ export default [
     footnotes: {},
   },
   {
-    names: ["NON_US_HASH"],
+    names: ["NON_US_HASH", "NUHS"],
     description: "Non-US # [Hash/Pound] and ~ [Tilde]",
     context: "Keyboard",
     clarify: false,
@@ -1368,7 +1368,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=84",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: true,
@@ -1378,7 +1378,7 @@ export default [
   },
   {
     names: ["TILDE2"],
-    description: "~ [Tilde]",
+    description: "~ [Tilde] using shift and non-US hash/pound",
     context: "Keyboard",
     clarify: false,
     usages: [
@@ -1393,7 +1393,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=84",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: true,
@@ -2376,7 +2376,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_1", "KP_N1"],
-    description: "1",
+    description: "Keypad 1 and End",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2397,7 +2397,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_2", "KP_N2"],
-    description: "2",
+    description: "Keypad 2 and Down Arrow",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2418,7 +2418,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_3", "KP_N3"],
-    description: "3",
+    description: "Keypad 3 and Page Down",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2439,7 +2439,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_4", "KP_N4"],
-    description: "4",
+    description: "Keypad 4 and Left Arrow",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2460,7 +2460,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_5", "KP_N5"],
-    description: "5",
+    description: "Keypad 5",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2481,7 +2481,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_6", "KP_N6"],
-    description: "6",
+    description: "Keypad 6 and Right Arrow",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2502,7 +2502,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_7", "KP_N7"],
-    description: "7",
+    description: "Keypad 7 and Home",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2523,7 +2523,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_8", "KP_N8"],
-    description: "8",
+    description: "Keypad 8 and Up Arrow",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2544,7 +2544,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_9", "KP_N9"],
-    description: "9",
+    description: "Keypad 9 and Page Up",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2565,7 +2565,7 @@ export default [
   },
   {
     names: ["KP_NUMBER_0", "KP_N0"],
-    description: "0",
+    description: "Keypad 0 and Insert",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2586,7 +2586,7 @@ export default [
   },
   {
     names: ["KP_DOT"],
-    description: ". [Dot]",
+    description: ". [Dot] and Delete",
     context: "Keypad",
     clarify: false,
     usages: [
@@ -2606,7 +2606,7 @@ export default [
     footnotes: {},
   },
   {
-    names: ["NON_US_BACKSLASH", "NON_US_BSLH"],
+    names: ["NON_US_BACKSLASH", "NON_US_BSLH", "NUBS"],
     description: "Non-US \\ [Backslash] and | [Pipe]",
     context: "Keyboard",
     clarify: false,
@@ -2628,7 +2628,7 @@ export default [
   },
   {
     names: ["PIPE2"],
-    description: "| [Pipe]",
+    description: "| [Pipe] using shift and non-US backslash",
     context: "Keyboard",
     clarify: false,
     usages: [
@@ -2664,7 +2664,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: true,
@@ -2711,7 +2711,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: null,
@@ -2732,7 +2732,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2753,7 +2753,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2774,7 +2774,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2795,7 +2795,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2816,7 +2816,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2837,7 +2837,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2858,7 +2858,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2879,7 +2879,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2900,7 +2900,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2921,7 +2921,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2942,7 +2942,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -2963,7 +2963,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
       macos: true,
@@ -3089,13 +3089,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosEditing"],
+    },
   },
   {
     names: ["K_UNDO"],
@@ -3110,13 +3112,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosEditing"],
+    },
   },
   {
     names: ["K_CUT"],
@@ -3131,13 +3135,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosEditing"],
+    },
   },
   {
     names: ["K_COPY"],
@@ -3152,13 +3158,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosEditing"],
+    },
   },
   {
     names: ["K_PASTE"],
@@ -3173,13 +3181,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosEditing"],
+    },
   },
   {
     names: ["K_FIND"],
@@ -3215,7 +3225,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: true,
@@ -3236,10 +3246,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
-      macos: false,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3257,10 +3267,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
-      macos: false,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3278,7 +3288,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: false,
       android: false,
       macos: null,
@@ -3320,7 +3330,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: true,
       linux: false,
       android: false,
       macos: null,
@@ -3341,7 +3351,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: null,
@@ -3362,7 +3372,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: false,
       android: false,
       macos: null,
@@ -3383,13 +3393,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosInternational"],
+    },
   },
   {
     names: ["INTERNATIONAL_2", "INT2", "INT_KATAKANAHIRAGANA", "INT_KANA"],
@@ -3404,10 +3416,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3425,13 +3437,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosInternational"],
+    },
   },
   {
     names: ["INTERNATIONAL_4", "INT4", "INT_HENKAN"],
@@ -3446,10 +3460,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=86",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3467,17 +3481,17 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
   },
   {
     names: ["INTERNATIONAL_6", "INT6", "INT_KPJPCOMMA"],
-    description: ", [カソマ] (International 6)",
+    description: ", [カンマ] (International 6)",
     context: "Keyboard",
     clarify: false,
     usages: [
@@ -3488,10 +3502,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3512,7 +3526,7 @@ export default [
       windows: null,
       linux: false,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3533,7 +3547,7 @@ export default [
       windows: null,
       linux: false,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3554,7 +3568,7 @@ export default [
       windows: null,
       linux: false,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3572,13 +3586,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosLanguage"],
+    },
   },
   {
     names: ["LANGUAGE_2", "LANG2", "LANG_HANJA"],
@@ -3593,13 +3609,15 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
-    footnotes: {},
+    footnotes: {
+      macos: ["macosLanguage"],
+    },
   },
   {
     names: ["LANGUAGE_3", "LANG3", "LANG_KATAKANA"],
@@ -3614,10 +3632,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3635,10 +3653,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3656,10 +3674,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3680,7 +3698,7 @@ export default [
       windows: null,
       linux: false,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3701,7 +3719,7 @@ export default [
       windows: null,
       linux: false,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3722,7 +3740,7 @@ export default [
       windows: null,
       linux: false,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3743,7 +3761,7 @@ export default [
       windows: null,
       linux: false,
       android: false,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -3866,7 +3884,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: false,
       linux: false,
       android: false,
       macos: null,
@@ -4013,7 +4031,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4034,7 +4052,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=87",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4265,7 +4283,7 @@ export default [
     documentation:
       "https://source.android.com/devices/input/keyboard-devices#hid-keyboard-and-keypad-page-0x07",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4287,7 +4305,7 @@ export default [
     documentation:
       "https://source.android.com/devices/input/keyboard-devices#hid-keyboard-and-keypad-page-0x07",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4309,7 +4327,7 @@ export default [
     documentation:
       "https://source.android.com/devices/input/keyboard-devices#hid-keyboard-and-keypad-page-0x07",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4331,7 +4349,7 @@ export default [
     documentation:
       "https://source.android.com/devices/input/keyboard-devices#hid-keyboard-and-keypad-page-0x07",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4375,7 +4393,7 @@ export default [
     documentation:
       "https://source.android.com/devices/input/keyboard-devices#hid-keyboard-and-keypad-page-0x07",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4397,7 +4415,7 @@ export default [
     documentation:
       "https://source.android.com/devices/input/keyboard-devices#hid-keyboard-and-keypad-page-0x07",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4419,7 +4437,7 @@ export default [
     documentation:
       "https://source.android.com/devices/input/keyboard-devices#hid-keyboard-and-keypad-page-0x07",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4507,7 +4525,7 @@ export default [
     documentation:
       "https://source.android.com/devices/input/keyboard-devices#hid-keyboard-and-keypad-page-0x07",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: false,
@@ -4989,7 +5007,7 @@ export default [
     footnotes: {},
   },
   {
-    names: ["C_CAPTIONS", "C_SUBTITILES"],
+    names: ["C_CAPTIONS", "C_SUBTITLES"],
     description: "Closed Caption",
     context: "Consumer",
     clarify: true,
@@ -5001,7 +5019,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: null,
@@ -5022,9 +5040,9 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
-      android: null,
+      android: true,
       macos: null,
       ios: null,
     },
@@ -5043,7 +5061,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: false,
       linux: false,
       android: true,
       macos: null,
@@ -5148,9 +5166,9 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
-      android: null,
+      android: false,
       macos: null,
       ios: null,
     },
@@ -5169,11 +5187,11 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
-      android: null,
+      android: true,
       macos: true,
-      ios: null,
+      ios: true,
     },
     footnotes: {},
   },
@@ -5190,11 +5208,11 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
-      android: null,
+      android: true,
       macos: true,
-      ios: null,
+      ios: true,
     },
     footnotes: {},
   },
@@ -5211,9 +5229,9 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
-      android: null,
+      android: false,
       macos: null,
       ios: null,
     },
@@ -5232,9 +5250,9 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
-      android: null,
+      android: false,
       macos: null,
       ios: null,
     },
@@ -5253,9 +5271,9 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
-      android: null,
+      android: false,
       macos: null,
       ios: null,
     },
@@ -5274,9 +5292,9 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=134",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
-      android: null,
+      android: false,
       macos: null,
       ios: null,
     },
@@ -5778,7 +5796,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: null,
@@ -5799,7 +5817,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: null,
@@ -5820,7 +5838,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: null,
@@ -5841,7 +5859,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: null,
@@ -5862,7 +5880,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: null,
@@ -5883,11 +5901,11 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: true,
-      ios: null,
+      ios: true,
     },
     footnotes: {},
   },
@@ -5904,11 +5922,11 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: true,
-      ios: null,
+      ios: true,
     },
     footnotes: {},
   },
@@ -5925,7 +5943,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: true,
       macos: null,
@@ -5967,7 +5985,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
       macos: null,
@@ -5988,7 +6006,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
       macos: null,
@@ -6009,9 +6027,9 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
-      android: null,
+      android: false,
       macos: null,
       ios: null,
     },
@@ -6051,11 +6069,11 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=137",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: true,
-      ios: null,
+      ios: true,
     },
     footnotes: {},
   },
@@ -6093,11 +6111,11 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=139",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
-      macos: null,
-      ios: null,
+      macos: true,
+      ios: true,
     },
     footnotes: {},
   },
@@ -6114,7 +6132,7 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=139",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
       macos: null,
@@ -6135,11 +6153,11 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=139",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: true,
-      ios: null,
+      ios: true,
     },
     footnotes: {},
   },
@@ -6156,11 +6174,11 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=139",
     os: {
-      windows: null,
+      windows: true,
       linux: true,
       android: true,
       macos: true,
-      ios: null,
+      ios: true,
     },
     footnotes: {},
   },
@@ -6177,9 +6195,9 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=141",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
-      android: null,
+      android: false,
       macos: null,
       ios: null,
     },
@@ -6453,8 +6471,8 @@ export default [
       windows: null,
       linux: true,
       android: true,
-      macos: null,
-      ios: null,
+      macos: false,
+      ios: false,
     },
     footnotes: {},
   },
@@ -6537,8 +6555,8 @@ export default [
       windows: null,
       linux: true,
       android: true,
-      macos: null,
-      ios: null,
+      macos: false,
+      ios: false,
     },
     footnotes: {},
   },
@@ -7143,10 +7161,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=150",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7164,10 +7182,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=150",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7185,10 +7203,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=150",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7206,10 +7224,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=150",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7251,7 +7269,7 @@ export default [
       windows: null,
       linux: true,
       android: true,
-      macos: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -7626,10 +7644,10 @@ export default [
     ],
     documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=152",
     os: {
-      windows: null,
+      windows: false,
       linux: true,
       android: false,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7713,7 +7731,28 @@ export default [
       windows: null,
       linux: true,
       android: null,
-      macos: null,
+      macos: true,
+      ios: null,
+    },
+    footnotes: {},
+  },
+  {
+    names: ["C_AC_DESKTOP_SHOW_ALL_APPLICATIONS"],
+    description: "Desktop Show All Applications",
+    context: "Consumer AC",
+    clarify: true,
+    usages: [
+      {
+        application: consumerApplication,
+        item: usage(consumerPage, 0x2a2),
+      },
+    ],
+    documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=153",
+    os: {
+      windows: null,
+      linux: true,
+      android: null,
+      macos: true,
       ios: null,
     },
     footnotes: {},
@@ -7734,7 +7773,7 @@ export default [
       windows: null,
       linux: true,
       android: null,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7755,7 +7794,7 @@ export default [
       windows: null,
       linux: true,
       android: null,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7776,7 +7815,7 @@ export default [
       windows: null,
       linux: true,
       android: null,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7797,7 +7836,7 @@ export default [
       windows: null,
       linux: true,
       android: null,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7818,7 +7857,7 @@ export default [
       windows: null,
       linux: true,
       android: null,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
@@ -7839,9 +7878,32 @@ export default [
       windows: null,
       linux: true,
       android: null,
-      macos: null,
+      macos: false,
       ios: null,
     },
     footnotes: {},
+  },
+  {
+    names: ["C_AC_NEXT_KEYBOARD_LAYOUT_SELECT", "GLOBE"],
+    description: "AC Next Keyboard Layout Select (Apple Globe)",
+    context: "Consumer AC",
+    clarify: true,
+    usages: [
+      {
+        application: consumerApplication,
+        item: usage(consumerPage, 0x29d),
+      },
+    ],
+    documentation: "https://usb.org/sites/default/files/hut1_2.pdf#page=153",
+    os: {
+      windows: null,
+      linux: false,
+      android: null,
+      macos: true,
+      ios: true,
+    },
+    footnotes: {
+      macos: ["globe"],
+    },
   },
 ];
