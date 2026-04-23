@@ -6,4 +6,3 @@ if SHIELD_BOARDSOURCE5X12
 config ZMK_KEYBOARD_NAME
     default "boardsource5x12"
 
-endif
